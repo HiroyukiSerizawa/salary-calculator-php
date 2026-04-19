@@ -1,0 +1,506 @@
+{
+  "version": "2026-03",
+  "region": "tokyo",
+  "rows": [
+    {
+      "grade": 1,
+      "standard_monthly_remuneration": 58000,
+      "salary_from": 58000,
+      "salary_to": 63000,
+      "health_insurance_half": 2856.5,
+      "care_insurance_half": 469.8,
+      "child_support_half": 66.7,
+      "pension_half": null
+    },
+    {
+      "grade": 2,
+      "standard_monthly_remuneration": 68000,
+      "salary_from": 63000,
+      "salary_to": 73000,
+      "health_insurance_half": 3349.0,
+      "care_insurance_half": 550.8,
+      "child_support_half": 78.2,
+      "pension_half": null
+    },
+    {
+      "grade": 3,
+      "standard_monthly_remuneration": 78000,
+      "salary_from": 73000,
+      "salary_to": 83000,
+      "health_insurance_half": 3841.5,
+      "care_insurance_half": 631.8,
+      "child_support_half": 89.7,
+      "pension_half": null
+    },
+    {
+      "grade": 4,
+      "standard_monthly_remuneration": 88000,
+      "salary_from": 83000,
+      "salary_to": 93000,
+      "health_insurance_half": 4334.0,
+      "care_insurance_half": 712.8,
+      "child_support_half": 101.2,
+      "pension_half": 8052.0
+    },
+    {
+      "grade": 5,
+      "standard_monthly_remuneration": 98000,
+      "salary_from": 93000,
+      "salary_to": 101000,
+      "health_insurance_half": 4826.5,
+      "care_insurance_half": 793.8,
+      "child_support_half": 112.7,
+      "pension_half": 8967.0
+    },
+    {
+      "grade": 6,
+      "standard_monthly_remuneration": 104000,
+      "salary_from": 101000,
+      "salary_to": 107000,
+      "health_insurance_half": 5122.0,
+      "care_insurance_half": 842.4,
+      "child_support_half": 119.6,
+      "pension_half": 9516.0
+    },
+    {
+      "grade": 7,
+      "standard_monthly_remuneration": 110000,
+      "salary_from": 107000,
+      "salary_to": 114000,
+      "health_insurance_half": 5417.5,
+      "care_insurance_half": 891.0,
+      "child_support_half": 126.5,
+      "pension_half": 10065.0
+    },
+    {
+      "grade": 8,
+      "standard_monthly_remuneration": 118000,
+      "salary_from": 114000,
+      "salary_to": 122000,
+      "health_insurance_half": 5811.5,
+      "care_insurance_half": 955.8,
+      "child_support_half": 135.7,
+      "pension_half": 10797.0
+    },
+    {
+      "grade": 9,
+      "standard_monthly_remuneration": 126000,
+      "salary_from": 122000,
+      "salary_to": 130000,
+      "health_insurance_half": 6205.5,
+      "care_insurance_half": 1020.6,
+      "child_support_half": 144.9,
+      "pension_half": 11529.0
+    },
+    {
+      "grade": 10,
+      "standard_monthly_remuneration": 134000,
+      "salary_from": 130000,
+      "salary_to": 138000,
+      "health_insurance_half": 6599.5,
+      "care_insurance_half": 1085.4,
+      "child_support_half": 154.1,
+      "pension_half": 12261.0
+    },
+    {
+      "grade": 11,
+      "standard_monthly_remuneration": 142000,
+      "salary_from": 138000,
+      "salary_to": 146000,
+      "health_insurance_half": 6993.5,
+      "care_insurance_half": 1150.2,
+      "child_support_half": 163.3,
+      "pension_half": 12993.0
+    },
+    {
+      "grade": 12,
+      "standard_monthly_remuneration": 150000,
+      "salary_from": 146000,
+      "salary_to": 155000,
+      "health_insurance_half": 7387.5,
+      "care_insurance_half": 1215.0,
+      "child_support_half": 172.5,
+      "pension_half": 13725.0
+    },
+    {
+      "grade": 13,
+      "standard_monthly_remuneration": 160000,
+      "salary_from": 155000,
+      "salary_to": 165000,
+      "health_insurance_half": 7880.0,
+      "care_insurance_half": 1296.0,
+      "child_support_half": 184.0,
+      "pension_half": 14640.0
+    },
+    {
+      "grade": 14,
+      "standard_monthly_remuneration": 170000,
+      "salary_from": 165000,
+      "salary_to": 175000,
+      "health_insurance_half": 8372.5,
+      "care_insurance_half": 1377.0,
+      "child_support_half": 195.5,
+      "pension_half": 15555.0
+    },
+    {
+      "grade": 15,
+      "standard_monthly_remuneration": 180000,
+      "salary_from": 175000,
+      "salary_to": 185000,
+      "health_insurance_half": 8865.0,
+      "care_insurance_half": 1458.0,
+      "child_support_half": 207.0,
+      "pension_half": 16470.0
+    },
+    {
+      "grade": 16,
+      "standard_monthly_remuneration": 190000,
+      "salary_from": 185000,
+      "salary_to": 195000,
+      "health_insurance_half": 9357.5,
+      "care_insurance_half": 1539.0,
+      "child_support_half": 218.5,
+      "pension_half": 17385.0
+    },
+    {
+      "grade": 17,
+      "standard_monthly_remuneration": 200000,
+      "salary_from": 195000,
+      "salary_to": 210000,
+      "health_insurance_half": 9850.0,
+      "care_insurance_half": 1620.0,
+      "child_support_half": 230.0,
+      "pension_half": 18300.0
+    },
+    {
+      "grade": 18,
+      "standard_monthly_remuneration": 220000,
+      "salary_from": 210000,
+      "salary_to": 230000,
+      "health_insurance_half": 10835.0,
+      "care_insurance_half": 1782.0,
+      "child_support_half": 253.0,
+      "pension_half": 20130.0
+    },
+    {
+      "grade": 19,
+      "standard_monthly_remuneration": 240000,
+      "salary_from": 230000,
+      "salary_to": 250000,
+      "health_insurance_half": 11820.0,
+      "care_insurance_half": 1944.0,
+      "child_support_half": 276.0,
+      "pension_half": 21960.0
+    },
+    {
+      "grade": 20,
+      "standard_monthly_remuneration": 260000,
+      "salary_from": 250000,
+      "salary_to": 270000,
+      "health_insurance_half": 12805.0,
+      "care_insurance_half": 2106.0,
+      "child_support_half": 299.0,
+      "pension_half": 23790.0
+    },
+    {
+      "grade": 21,
+      "standard_monthly_remuneration": 280000,
+      "salary_from": 270000,
+      "salary_to": 290000,
+      "health_insurance_half": 13790.0,
+      "care_insurance_half": 2268.0,
+      "child_support_half": 322.0,
+      "pension_half": 25620.0
+    },
+    {
+      "grade": 22,
+      "standard_monthly_remuneration": 300000,
+      "salary_from": 290000,
+      "salary_to": 310000,
+      "health_insurance_half": 14775.0,
+      "care_insurance_half": 2430.0,
+      "child_support_half": 345.0,
+      "pension_half": 27450.0
+    },
+    {
+      "grade": 23,
+      "standard_monthly_remuneration": 320000,
+      "salary_from": 310000,
+      "salary_to": 330000,
+      "health_insurance_half": 15760.0,
+      "care_insurance_half": 2592.0,
+      "child_support_half": 368.0,
+      "pension_half": 29280.0
+    },
+    {
+      "grade": 24,
+      "standard_monthly_remuneration": 340000,
+      "salary_from": 330000,
+      "salary_to": 350000,
+      "health_insurance_half": 16745.0,
+      "care_insurance_half": 2754.0,
+      "child_support_half": 391.0,
+      "pension_half": 31110.0
+    },
+    {
+      "grade": 25,
+      "standard_monthly_remuneration": 360000,
+      "salary_from": 350000,
+      "salary_to": 370000,
+      "health_insurance_half": 17730.0,
+      "care_insurance_half": 2916.0,
+      "child_support_half": 414.0,
+      "pension_half": 32940.0
+    },
+    {
+      "grade": 26,
+      "standard_monthly_remuneration": 380000,
+      "salary_from": 370000,
+      "salary_to": 395000,
+      "health_insurance_half": 18715.0,
+      "care_insurance_half": 3078.0,
+      "child_support_half": 437.0,
+      "pension_half": 34770.0
+    },
+    {
+      "grade": 27,
+      "standard_monthly_remuneration": 410000,
+      "salary_from": 395000,
+      "salary_to": 425000,
+      "health_insurance_half": 20192.5,
+      "care_insurance_half": 3321.0,
+      "child_support_half": 471.5,
+      "pension_half": 37515.0
+    },
+    {
+      "grade": 28,
+      "standard_monthly_remuneration": 440000,
+      "salary_from": 425000,
+      "salary_to": 455000,
+      "health_insurance_half": 21670.0,
+      "care_insurance_half": 3564.0,
+      "child_support_half": 506.0,
+      "pension_half": 40260.0
+    },
+    {
+      "grade": 29,
+      "standard_monthly_remuneration": 470000,
+      "salary_from": 455000,
+      "salary_to": 485000,
+      "health_insurance_half": 23147.5,
+      "care_insurance_half": 3807.0,
+      "child_support_half": 540.5,
+      "pension_half": 43005.0
+    },
+    {
+      "grade": 30,
+      "standard_monthly_remuneration": 500000,
+      "salary_from": 485000,
+      "salary_to": 515000,
+      "health_insurance_half": 24625.0,
+      "care_insurance_half": 4050.0,
+      "child_support_half": 575.0,
+      "pension_half": 45750.0
+    },
+    {
+      "grade": 31,
+      "standard_monthly_remuneration": 530000,
+      "salary_from": 515000,
+      "salary_to": 545000,
+      "health_insurance_half": 26102.5,
+      "care_insurance_half": 4293.0,
+      "child_support_half": 609.5,
+      "pension_half": 48495.0
+    },
+    {
+      "grade": 32,
+      "standard_monthly_remuneration": 560000,
+      "salary_from": 545000,
+      "salary_to": 575000,
+      "health_insurance_half": 27580.0,
+      "care_insurance_half": 4536.0,
+      "child_support_half": 644.0,
+      "pension_half": 51240.0
+    },
+    {
+      "grade": 33,
+      "standard_monthly_remuneration": 590000,
+      "salary_from": 575000,
+      "salary_to": 605000,
+      "health_insurance_half": 29057.5,
+      "care_insurance_half": 4779.0,
+      "child_support_half": 678.5,
+      "pension_half": 53985.0
+    },
+    {
+      "grade": 34,
+      "standard_monthly_remuneration": 620000,
+      "salary_from": 605000,
+      "salary_to": 635000,
+      "health_insurance_half": 30535.0,
+      "care_insurance_half": 5022.0,
+      "child_support_half": 713.0,
+      "pension_half": 56730.0
+    },
+    {
+      "grade": 35,
+      "standard_monthly_remuneration": 650000,
+      "salary_from": 635000,
+      "salary_to": 665000,
+      "health_insurance_half": 32012.5,
+      "care_insurance_half": 5265.0,
+      "child_support_half": 747.5,
+      "pension_half": 59475.0
+    },
+    {
+      "grade": 36,
+      "standard_monthly_remuneration": 680000,
+      "salary_from": 665000,
+      "salary_to": 695000,
+      "health_insurance_half": 33490.0,
+      "care_insurance_half": 5508.0,
+      "child_support_half": 782.0,
+      "pension_half": 59475.0
+    },
+    {
+      "grade": 37,
+      "standard_monthly_remuneration": 710000,
+      "salary_from": 695000,
+      "salary_to": 730000,
+      "health_insurance_half": 34967.5,
+      "care_insurance_half": 5751.0,
+      "child_support_half": 816.5,
+      "pension_half": 59475.0
+    },
+    {
+      "grade": 38,
+      "standard_monthly_remuneration": 750000,
+      "salary_from": 730000,
+      "salary_to": 770000,
+      "health_insurance_half": 36937.5,
+      "care_insurance_half": 6075.0,
+      "child_support_half": 862.5,
+      "pension_half": 59475.0
+    },
+    {
+      "grade": 39,
+      "standard_monthly_remuneration": 790000,
+      "salary_from": 770000,
+      "salary_to": 810000,
+      "health_insurance_half": 38907.5,
+      "care_insurance_half": 6399.0,
+      "child_support_half": 908.5,
+      "pension_half": 59475.0
+    },
+    {
+      "grade": 40,
+      "standard_monthly_remuneration": 830000,
+      "salary_from": 810000,
+      "salary_to": 855000,
+      "health_insurance_half": 40877.5,
+      "care_insurance_half": 6723.0,
+      "child_support_half": 954.5,
+      "pension_half": 59475.0
+    },
+    {
+      "grade": 41,
+      "standard_monthly_remuneration": 880000,
+      "salary_from": 855000,
+      "salary_to": 905000,
+      "health_insurance_half": 43340.0,
+      "care_insurance_half": 7128.0,
+      "child_support_half": 1012.0,
+      "pension_half": 59475.0
+    },
+    {
+      "grade": 42,
+      "standard_monthly_remuneration": 930000,
+      "salary_from": 905000,
+      "salary_to": 955000,
+      "health_insurance_half": 45802.5,
+      "care_insurance_half": 7533.0,
+      "child_support_half": 1069.5,
+      "pension_half": 59475.0
+    },
+    {
+      "grade": 43,
+      "standard_monthly_remuneration": 980000,
+      "salary_from": 955000,
+      "salary_to": 1005000,
+      "health_insurance_half": 48265.0,
+      "care_insurance_half": 7938.0,
+      "child_support_half": 1127.0,
+      "pension_half": 59475.0
+    },
+    {
+      "grade": 44,
+      "standard_monthly_remuneration": 1030000,
+      "salary_from": 1005000,
+      "salary_to": 1055000,
+      "health_insurance_half": 50727.5,
+      "care_insurance_half": 8343.0,
+      "child_support_half": 1184.5,
+      "pension_half": 59475.0
+    },
+    {
+      "grade": 45,
+      "standard_monthly_remuneration": 1090000,
+      "salary_from": 1055000,
+      "salary_to": 1115000,
+      "health_insurance_half": 53682.5,
+      "care_insurance_half": 8829.0,
+      "child_support_half": 1253.5,
+      "pension_half": 59475.0
+    },
+    {
+      "grade": 46,
+      "standard_monthly_remuneration": 1150000,
+      "salary_from": 1115000,
+      "salary_to": 1175000,
+      "health_insurance_half": 56637.5,
+      "care_insurance_half": 9315.0,
+      "child_support_half": 1322.5,
+      "pension_half": 59475.0
+    },
+    {
+      "grade": 47,
+      "standard_monthly_remuneration": 1210000,
+      "salary_from": 1175000,
+      "salary_to": 1235000,
+      "health_insurance_half": 59592.5,
+      "care_insurance_half": 9801.0,
+      "child_support_half": 1391.5,
+      "pension_half": 59475.0
+    },
+    {
+      "grade": 48,
+      "standard_monthly_remuneration": 1270000,
+      "salary_from": 1235000,
+      "salary_to": 1295000,
+      "health_insurance_half": 62547.5,
+      "care_insurance_half": 10287.0,
+      "child_support_half": 1460.5,
+      "pension_half": 59475.0
+    },
+    {
+      "grade": 49,
+      "standard_monthly_remuneration": 1330000,
+      "salary_from": 1295000,
+      "salary_to": 1355000,
+      "health_insurance_half": 65502.5,
+      "care_insurance_half": 10773.0,
+      "child_support_half": 1529.5,
+      "pension_half": 59475.0
+    },
+    {
+      "grade": 50,
+      "standard_monthly_remuneration": 1390000,
+      "salary_from": 1355000,
+      "salary_to": null,
+      "health_insurance_half": 68457.5,
+      "care_insurance_half": 11259.0,
+      "child_support_half": 1598.5,
+      "pension_half": 59475.0
+    }
+  ]
+}
