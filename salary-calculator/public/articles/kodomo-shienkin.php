@@ -21,6 +21,8 @@ $calc_url = "https://pfp.tokyo/calc/index.php";
   <meta property="og:url" content="<?= htmlspecialchars($canonical_url) ?>">
   <meta property="og:locale" content="ja_JP">
   <meta name="twitter:card" content="summary">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3745259041113437"
+      crossorigin="anonymous"></script>
 
   <!-- 構造化データ -->
   <script type="application/ld+json">
