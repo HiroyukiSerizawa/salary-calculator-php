@@ -556,3 +556,136 @@ img { display: block; max-width: 100%; }
     .info-grid { grid-template-columns: 1fr 1fr; }
     .articles-grid { grid-template-columns: 1fr; }
 }
+
+/* ── 基礎知識セクション ───────────────────── */
+.knowledge-section {
+    margin-top: 40px;
+    padding: 28px 32px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-card);
+}
+
+.knowledge-section__title {
+    margin: 0 0 8px;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.knowledge-section__lead {
+    margin: 0 0 24px;
+    color: var(--text-muted);
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+.knowledge-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.knowledge-item {
+    border-left: 3px solid var(--pfp-navy);
+    padding: 14px 18px;
+    background: var(--surface-soft);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.knowledge-item h3 {
+    margin: 0 0 6px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--pfp-navy);
+}
+
+.knowledge-item p {
+    margin: 0;
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.7;
+}
+
+/* ── FAQセクション ───────────────────────── */
+.faq-section {
+    margin-top: 40px;
+}
+
+.faq-section__title {
+    margin: 0 0 16px;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.faq-list {
+    display: grid;
+    gap: 12px;
+}
+
+.faq-item {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+.faq-q {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px 20px;
+    background: var(--surface-accent);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.faq-q::before {
+    content: "Q";
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24px;
+    height: 24px;
+    background: var(--pfp-navy);
+    color: #fff;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 800;
+    flex-shrink: 0;
+    margin-top: 1px;
+}
+
+.faq-a {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px 20px;
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.75;
+}
+
+.faq-a::before {
+    content: "A";
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24px;
+    height: 24px;
+    background: var(--pfp-orange);
+    color: #fff;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 800;
+    flex-shrink: 0;
+    margin-top: 1px;
+}
+
+@media (max-width: 640px) {
+    .knowledge-section { padding: 20px 16px; }
+    .knowledge-grid { grid-template-columns: 1fr; }
+}
