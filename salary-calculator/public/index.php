@@ -206,6 +206,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <section class="articles-section">
             <h2 class="articles-section__title">給与・社会保険の解説記事</h2>
             <div class="articles-grid">
+                <a href="./articles/kyuyo-meisai-mikata.php" class="article-card">
+                    <span class="article-card__label">給与・基礎知識</span>
+                    <p class="article-card__title">給与明細の見方・読み方【完全ガイド】各項目の意味を徹底解説</p>
+                    <p class="article-card__desc">基本給・手当・控除の各項目をわかりやすく解説。なぜこの金額が引かれるのかが一目でわかります。</p>
+                    <span class="article-card__arrow">続きを読む →</span>
+                </a>
                 <a href="./articles/kodomo-shienkin.php" class="article-card">
                     <span class="article-card__label">社会保険・給与解説</span>
                     <p class="article-card__title">子ども・子育て支援金とは？2026年4月から始まる新たな給与天引きをわかりやすく解説</p>
@@ -224,6 +230,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <p class="article-card__desc">扶養から外れるボーダーラインと手取りへの影響を年収別にシミュレーションして解説。</p>
                     <span class="article-card__arrow">続きを読む →</span>
                 </a>
+            </div>
+            <div style="text-align:center; margin-top:24px;">
+                <a href="./articles/" style="display:inline-block; color:#153987; font-size:14px; font-weight:600; text-decoration:none; border:2px solid #153987; padding:10px 28px; border-radius:8px;">記事一覧をすべて見る →</a>
             </div>
         </section>
 
