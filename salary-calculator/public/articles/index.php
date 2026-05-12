@@ -310,6 +310,54 @@ $canonical_url = "https://pfp.tokyo/calc/articles/";
       <span class="article-card__arrow">続きを読む →</span>
     </a>
 
+    <a href="./bonus-tearai.php" class="article-card">
+      <span class="article-card__label">給与・賞与</span>
+      <p class="article-card__title">ボーナス（賞与）の手取り計算方法【2026年最新】月給との違いを徹底解説</p>
+      <p class="article-card__desc">標準賞与額の上限・所得税の特例計算・賞与額別シミュレーション表で手取りを確認。</p>
+      <span class="article-card__meta">2026年5月掲載</span>
+      <span class="article-card__arrow">続きを読む →</span>
+    </a>
+
+    <a href="./jumin-zei.php" class="article-card">
+      <span class="article-card__label">税金・住民税</span>
+      <p class="article-card__title">住民税の計算方法とは？給与から天引きされる仕組みをわかりやすく解説【2026年版】</p>
+      <p class="article-card__desc">前年所得から計算される仕組み・年収別の目安・6月に上がる理由を詳しく解説。</p>
+      <span class="article-card__meta">2026年5月掲載</span>
+      <span class="article-card__arrow">続きを読む →</span>
+    </a>
+
+    <a href="./nenmatsu-chosei.php" class="article-card">
+      <span class="article-card__label">税金・年末調整</span>
+      <p class="article-card__title">年末調整とは？確定申告との違い・手続き方法をわかりやすく解説【2026年版】</p>
+      <p class="article-card__desc">申告できる控除の種類・手続きの流れ・よくある申告漏れをわかりやすくまとめています。</p>
+      <span class="article-card__meta">2026年5月掲載</span>
+      <span class="article-card__arrow">続きを読む →</span>
+    </a>
+
+    <a href="./fuyou-kojo.php" class="article-card">
+      <span class="article-card__label">扶養・控除</span>
+      <p class="article-card__title">扶養控除とは？種類・条件・金額をわかりやすく解説【2026年最新】</p>
+      <p class="article-card__desc">一般扶養・特定扶養・老人扶養の控除額と、社会保険の扶養との違いを解説します。</p>
+      <span class="article-card__meta">2026年5月掲載</span>
+      <span class="article-card__arrow">続きを読む →</span>
+    </a>
+
+    <a href="./shobyo-teatekin.php" class="article-card">
+      <span class="article-card__label">社会保険・給付</span>
+      <p class="article-card__title">傷病手当金とは？計算方法・受給条件・期間をわかりやすく解説【2026年版】</p>
+      <p class="article-card__desc">病気・けがで働けない時の収入保障。支給額の計算方法と申請手順を詳しく解説。</p>
+      <span class="article-card__meta">2026年5月掲載</span>
+      <span class="article-card__arrow">続きを読む →</span>
+    </a>
+
+    <a href="./kaigo-hoken.php" class="article-card">
+      <span class="article-card__label">社会保険・介護</span>
+      <p class="article-card__title">介護保険料とは？給与から天引きされる仕組みと計算方法【2026年最新】</p>
+      <p class="article-card__desc">40歳から始まる介護保険料の計算方法・給与別の金額・手取りへの影響を解説します。</p>
+      <span class="article-card__meta">2026年5月掲載</span>
+      <span class="article-card__arrow">続きを読む →</span>
+    </a>
+
   </div>
 
   <!-- 広告 -->
