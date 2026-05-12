@@ -341,7 +341,7 @@ $page_description = "給与手取り計算ツールと、社会保険・税金�
       </div>
     </div>
     <div class="tool-banner__cta">
-      <a href="https://pfp.tokyo/calc/">手取りを計算する →</a>
+      <a href="https://calc.pfp.tokyo/">手取りを計算する →</a>
     </div>
   </div>
 
@@ -362,70 +362,70 @@ $page_description = "給与手取り計算ツールと、社会保険・税金�
 
   <div class="articles-grid">
 
-    <a href="https://pfp.tokyo/calc/articles/kyuyo-meisai-mikata.php" class="article-card">
+    <a href="https://calc.pfp.tokyo/articles/kyuyo-meisai-mikata.php" class="article-card">
       <span class="article-card__label">給与・基礎知識</span>
       <p class="article-card__title">給与明細の見方・読み方【完全ガイド】各項目の意味を徹底解説</p>
       <p class="article-card__desc">基本給・手当・控除の各項目をわかりやすく解説。なぜこの金額が引かれるのかが一目でわかります。</p>
       <span class="article-card__arrow">続きを読む →</span>
     </a>
 
-    <a href="https://pfp.tokyo/calc/articles/nenshu-no-kabe.php" class="article-card">
+    <a href="https://calc.pfp.tokyo/articles/nenshu-no-kabe.php" class="article-card">
       <span class="article-card__label">扶養・年収</span>
       <p class="article-card__title">年収の壁とは？103万・130万・150万円の壁をわかりやすく解説【2026年最新】</p>
       <p class="article-card__desc">扶養から外れるボーダーラインと手取りへの影響を年収別にシミュレーションして解説します。</p>
       <span class="article-card__arrow">続きを読む →</span>
     </a>
 
-    <a href="https://pfp.tokyo/calc/articles/shakai-hoken-keisan.php" class="article-card">
+    <a href="https://calc.pfp.tokyo/articles/shakai-hoken-keisan.php" class="article-card">
       <span class="article-card__label">社会保険</span>
       <p class="article-card__title">社会保険料（健康保険・厚生年金）の計算方法【2026年最新】</p>
       <p class="article-card__desc">標準報酬月額の仕組みから、健康保険・厚生年金・介護保険料の計算方法まで徹底解説。</p>
       <span class="article-card__arrow">続きを読む →</span>
     </a>
 
-    <a href="https://pfp.tokyo/calc/articles/kodomo-shienkin.php" class="article-card">
+    <a href="https://calc.pfp.tokyo/articles/kodomo-shienkin.php" class="article-card">
       <span class="article-card__label">社会保険・新制度</span>
       <p class="article-card__title">子ども・子育て支援金とは？2026年4月から始まる新たな給与天引きをわかりやすく解説</p>
       <p class="article-card__desc">月額負担額の目安、年収別シミュレーション、手取りへの影響を詳しく解説します。</p>
       <span class="article-card__arrow">続きを読む →</span>
     </a>
 
-    <a href="https://pfp.tokyo/calc/articles/bonus-tearai.php" class="article-card">
+    <a href="https://calc.pfp.tokyo/articles/bonus-tearai.php" class="article-card">
       <span class="article-card__label">給与・賞与</span>
       <p class="article-card__title">ボーナス（賞与）の手取り計算方法【2026年最新】月給との違いを徹底解説</p>
       <p class="article-card__desc">標準賞与額の上限・所得税の特例計算・賞与額別シミュレーション表で手取りを確認。</p>
       <span class="article-card__arrow">続きを読む →</span>
     </a>
 
-    <a href="https://pfp.tokyo/calc/articles/jumin-zei.php" class="article-card">
+    <a href="https://calc.pfp.tokyo/articles/jumin-zei.php" class="article-card">
       <span class="article-card__label">税金・住民税</span>
       <p class="article-card__title">住民税の計算方法とは？給与から天引きされる仕組みをわかりやすく解説【2026年版】</p>
       <p class="article-card__desc">前年所得から計算される仕組み・年収別の目安・6月に上がる理由を詳しく解説。</p>
       <span class="article-card__arrow">続きを読む →</span>
     </a>
 
-    <a href="https://pfp.tokyo/calc/articles/nenmatsu-chosei.php" class="article-card">
+    <a href="https://calc.pfp.tokyo/articles/nenmatsu-chosei.php" class="article-card">
       <span class="article-card__label">税金・年末調整</span>
       <p class="article-card__title">年末調整とは？確定申告との違い・手続き方法をわかりやすく解説【2026年版】</p>
       <p class="article-card__desc">申告できる控除の種類・手続きの流れ・よくある申告漏れをわかりやすくまとめています。</p>
       <span class="article-card__arrow">続きを読む →</span>
     </a>
 
-    <a href="https://pfp.tokyo/calc/articles/fuyou-kojo.php" class="article-card">
+    <a href="https://calc.pfp.tokyo/articles/fuyou-kojo.php" class="article-card">
       <span class="article-card__label">扶養・控除</span>
       <p class="article-card__title">扶養控除とは？種類・条件・金額をわかりやすく解説【2026年最新】</p>
       <p class="article-card__desc">一般扶養・特定扶養・老人扶養の控除額と、社会保険の扶養との違いを解説します。</p>
       <span class="article-card__arrow">続きを読む →</span>
     </a>
 
-    <a href="https://pfp.tokyo/calc/articles/shobyo-teatekin.php" class="article-card">
+    <a href="https://calc.pfp.tokyo/articles/shobyo-teatekin.php" class="article-card">
       <span class="article-card__label">社会保険・給付</span>
       <p class="article-card__title">傷病手当金とは？計算方法・受給条件・期間をわかりやすく解説【2026年版】</p>
       <p class="article-card__desc">病気・けがで働けない時の収入保障。支給額の計算方法と申請手順を詳しく解説。</p>
       <span class="article-card__arrow">続きを読む →</span>
     </a>
 
-    <a href="https://pfp.tokyo/calc/articles/kaigo-hoken.php" class="article-card">
+    <a href="https://calc.pfp.tokyo/articles/kaigo-hoken.php" class="article-card">
       <span class="article-card__label">社会保険・介護</span>
       <p class="article-card__title">介護保険料とは？給与から天引きされる仕組みと計算方法【2026年最新】</p>
       <p class="article-card__desc">40歳から始まる介護保険料の計算方法・給与別の金額・手取りへの影響を解説します。</p>
@@ -435,7 +435,7 @@ $page_description = "給与手取り計算ツールと、社会保険・税金�
   </div>
 
   <div style="text-align:center; margin-top:8px;">
-    <a href="https://pfp.tokyo/calc/articles/" style="display:inline-block; color:#153987; font-size:14px; font-weight:600; text-decoration:none; border:2px solid #153987; padding:10px 28px; border-radius:8px;">記事一覧をすべて見る →</a>
+    <a href="https://calc.pfp.tokyo/articles/" style="display:inline-block; color:#153987; font-size:14px; font-weight:600; text-decoration:none; border:2px solid #153987; padding:10px 28px; border-radius:8px;">記事一覧をすべて見る →</a>
   </div>
 
   <!-- 広告 -->
@@ -464,8 +464,8 @@ $page_description = "給与手取り計算ツールと、社会保険・税金�
 
 <footer>
   <div class="footer-links">
-    <a href="https://pfp.tokyo/calc/">給与手取り計算ツール</a>
-    <a href="https://pfp.tokyo/calc/articles/">解説記事一覧</a>
+    <a href="https://calc.pfp.tokyo/">給与手取り計算ツール</a>
+    <a href="https://calc.pfp.tokyo/articles/">解説記事一覧</a>
     <a href="https://pfp.co.jp" target="_blank" rel="noopener noreferrer">株式会社PFP</a>
   </div>
   <p>© 2026 pfp.tokyo — 掲載内容は概算・解説目的です。正確な金額は給与明細または担当部署にご確認ください。</p>

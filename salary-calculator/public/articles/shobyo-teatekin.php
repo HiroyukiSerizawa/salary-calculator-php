@@ -1,8 +1,8 @@
 <?php
 $page_title = "傷病手当金とは？計算方法・受給条件・期間をわかりやすく解説【2026年版】";
 $page_description = "傷病手当金の受給条件・支給額の計算方法・支給期間を解説。年収別の目安表や退職後も受け取れる条件、有給休暇との関係、税金の扱いもわかりやすく説明します。";
-$canonical_url = "https://pfp.tokyo/calc/articles/shobyo-teatekin.php";
-$calc_url = "https://pfp.tokyo/calc/";
+$canonical_url = "https://calc.pfp.tokyo/articles/shobyo-teatekin.php";
+$calc_url = "https://calc.pfp.tokyo/";
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -284,9 +284,9 @@ $calc_url = "https://pfp.tokyo/calc/";
 
 <header>
   <div class="header-inner">
-    <a class="header-logo" href="https://pfp.tokyo/calc/">給与手取り計算</a>
+    <a class="header-logo" href="https://calc.pfp.tokyo/">給与手取り計算</a>
     <span class="header-sep">›</span>
-    <span class="header-nav"><a href="https://pfp.tokyo/calc/articles/">解説記事</a></span>
+    <span class="header-nav"><a href="https://calc.pfp.tokyo/articles/">解説記事</a></span>
     <span class="header-sep">›</span>
     <span class="header-nav" style="color:#333;">傷病手当金とは</span>
   </div>
@@ -604,7 +604,7 @@ $calc_url = "https://pfp.tokyo/calc/";
 </div>
 
 <footer>
-  <p><a href="https://pfp.tokyo/calc/">給与手取り計算トップ</a> | <a href="https://pfp.tokyo/calc/articles/">解説記事一覧</a> | <a href="https://pfp.tokyo">株式会社PFP</a></p>
+  <p><a href="https://calc.pfp.tokyo/">給与手取り計算トップ</a> | <a href="https://calc.pfp.tokyo/articles/">解説記事一覧</a> | <a href="https://pfp.tokyo">株式会社PFP</a></p>
   <p style="margin-top:8px;">© 2026 pfp.tokyo — 掲載内容は概算・解説目的です。正確な金額は給与明細または担当部署にご確認ください。</p>
 </footer>
 

@@ -1,8 +1,8 @@
 <?php
 $page_title = "年末調整とは？確定申告との違い・手続き方法をわかりやすく解説【2026年版】";
 $page_description = "年末調整とは何か、なぜ必要かを徹底解説。確定申告との違い、申告できる控除の一覧、手続きの流れ、還付・追加徴収のケース、よくある申告漏れまでわかりやすく紹介します。";
-$canonical_url = "https://pfp.tokyo/calc/articles/nenmatsu-chosei.php";
-$calc_url = "https://pfp.tokyo/calc/index.php";
+$canonical_url = "https://calc.pfp.tokyo/articles/nenmatsu-chosei.php";
+$calc_url = "https://calc.pfp.tokyo/index.php";
 ?>
 <!DOCTYPE html>
 <html lang="ja">

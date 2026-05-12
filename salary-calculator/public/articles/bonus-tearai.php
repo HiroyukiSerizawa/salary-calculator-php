@@ -1,8 +1,8 @@
 <?php
 $page_title = "ボーナス（賞与）の手取り計算方法【2026年最新】月給との違いを徹底解説";
 $page_description = "ボーナス（賞与）の手取り計算方法を徹底解説。社会保険料・雇用保険・所得税の計算式と、賞与50万〜200万円の手取りシミュレーション表つき。月給との違いもわかりやすく解説します。";
-$canonical_url = "https://pfp.tokyo/calc/articles/bonus-tearai.php";
-$calc_url = "https://pfp.tokyo/calc/index.php";
+$canonical_url = "https://calc.pfp.tokyo/articles/bonus-tearai.php";
+$calc_url = "https://calc.pfp.tokyo/index.php";
 ?>
 <!DOCTYPE html>
 <html lang="ja">

@@ -2,8 +2,8 @@
 // 子ども・子育て支援金 解説記事ページ
 $page_title = "子ども・子育て支援金とは？2026年4月から始まる新負担をわかりやすく解説";
 $page_description = "2026年4月から始まる子ども・子育て支援金制度を徹底解説。月額負担額の目安、年収別シミュレーション、手取りへの影響、使途まで詳しく説明します。";
-$canonical_url = "https://pfp.tokyo/calc/articles/kodomo-shienkin.php";
-$calc_url = "https://pfp.tokyo/calc/index.php";
+$canonical_url = "https://calc.pfp.tokyo/articles/kodomo-shienkin.php";
+$calc_url = "https://calc.pfp.tokyo/index.php";
 ?>
 <!DOCTYPE html>
 <html lang="ja">

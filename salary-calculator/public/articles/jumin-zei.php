@@ -1,8 +1,8 @@
 <?php
 $page_title = "住民税の計算方法とは？給与から天引きされる仕組みをわかりやすく解説【2026年版】";
 $page_description = "住民税の計算方法を徹底解説。所得割・均等割の仕組みから、年収別の住民税目安表、6月に増える理由、転職・退職時の注意点まで、給与天引きの仕組みをわかりやすく紹介します。";
-$canonical_url = "https://pfp.tokyo/calc/articles/jumin-zei.php";
-$calc_url = "https://pfp.tokyo/calc/index.php";
+$canonical_url = "https://calc.pfp.tokyo/articles/jumin-zei.php";
+$calc_url = "https://calc.pfp.tokyo/index.php";
 ?>
 <!DOCTYPE html>
 <html lang="ja">

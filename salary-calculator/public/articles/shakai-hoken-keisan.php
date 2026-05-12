@@ -1,8 +1,8 @@
 <?php
 $page_title = "社会保険料（健康保険・厚生年金）の計算方法【2026年最新】";
 $page_description = "会社員の健康保険料・厚生年金・介護保険料・子ども支援金の計算方法を解説。標準報酬月額の仕組みや年収別シミュレーション表つきでわかりやすく紹介します。";
-$canonical_url = "https://pfp.tokyo/calc/articles/shakai-hoken-keisan.php";
-$calc_url = "https://pfp.tokyo/calc/index.php";
+$canonical_url = "https://calc.pfp.tokyo/articles/shakai-hoken-keisan.php";
+$calc_url = "https://calc.pfp.tokyo/index.php";
 ?>
 <!DOCTYPE html>
 <html lang="ja">

@@ -1,7 +1,7 @@
 <?php
 $page_title = "給与・社会保険の解説記事一覧 | 給与手取り計算ツール";
 $page_description = "給与手取り・社会保険・税金に関する解説記事をまとめています。年収の壁、社会保険料の計算方法、子ども・子育て支援金など、給与にまつわる知識を詳しく解説。";
-$canonical_url = "https://pfp.tokyo/calc/articles/";
+$canonical_url = "https://calc.pfp.tokyo/articles/";
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -30,7 +30,7 @@ $canonical_url = "https://pfp.tokyo/calc/articles/";
     "@type": "CollectionPage",
     "name": "給与・社会保険の解説記事一覧",
     "description": "給与手取り・社会保険・税金に関する解説記事一覧",
-    "url": "https://pfp.tokyo/calc/articles/",
+    "url": "https://calc.pfp.tokyo/articles/",
     "publisher": {
       "@type": "Organization",
       "name": "pfp.tokyo"
@@ -250,7 +250,7 @@ $canonical_url = "https://pfp.tokyo/calc/articles/";
 
 <header>
   <div class="header-inner">
-    <a class="header-logo" href="https://pfp.tokyo/calc/">給与手取り計算</a>
+    <a class="header-logo" href="https://calc.pfp.tokyo/">給与手取り計算</a>
     <span class="header-sep">›</span>
     <span class="header-title">解説記事一覧</span>
   </div>
@@ -375,13 +375,13 @@ $canonical_url = "https://pfp.tokyo/calc/articles/";
   <div class="calc-banner">
     <h2>手取り額をすぐに確認したい方へ</h2>
     <p>東京・協会けんぽ前提の月給手取りシミュレーター。給与・年齢・扶養人数を入力するだけで概算を表示します。</p>
-    <a href="https://pfp.tokyo/calc/">無料で手取りを計算する</a>
+    <a href="https://calc.pfp.tokyo/">無料で手取りを計算する</a>
   </div>
 
 </div>
 
 <footer>
-  <p><a href="https://pfp.tokyo/calc/">給与手取り計算トップ</a> | <a href="https://pfp.tokyo">株式会社PFP</a></p>
+  <p><a href="https://calc.pfp.tokyo/">給与手取り計算トップ</a> | <a href="https://pfp.tokyo">株式会社PFP</a></p>
   <p style="margin-top:8px;">© 2026 pfp.tokyo — 掲載内容は概算です。正確な金額は給与明細または担当部署にご確認ください。</p>
 </footer>
 

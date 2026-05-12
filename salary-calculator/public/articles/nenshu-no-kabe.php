@@ -1,8 +1,8 @@
 <?php
 $page_title = "年収の壁とは？103万・130万・150万円の壁をわかりやすく解説【2026年最新】";
 $page_description = "年収の壁（103万・106万・130万・150万円）の違いと、扶養から外れるボーダーラインを解説。手取りへの影響や損しない働き方のポイントも紹介します。";
-$canonical_url = "https://pfp.tokyo/calc/articles/nenshu-no-kabe.php";
-$calc_url = "https://pfp.tokyo/calc/index.php";
+$canonical_url = "https://calc.pfp.tokyo/articles/nenshu-no-kabe.php";
+$calc_url = "https://calc.pfp.tokyo/index.php";
 ?>
 <!DOCTYPE html>
 <html lang="ja">
