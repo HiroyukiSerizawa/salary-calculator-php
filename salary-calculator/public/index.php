@@ -230,6 +230,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <p class="article-card__desc">扶養から外れるボーダーラインと手取りへの影響を年収別にシミュレーションして解説。</p>
                     <span class="article-card__arrow">続きを読む →</span>
                 </a>
+                <a href="./articles/furusato-nozei.php" class="article-card">
+                    <span class="article-card__label">税金・節税</span>
+                    <p class="article-card__title">ふるさと納税とは？仕組み・控除上限額・手取りへの影響をわかりやすく解説【2026年版】</p>
+                    <p class="article-card__desc">年収別の控除上限額・ワンストップ特例vs確定申告・住民税への影響をわかりやすく解説。</p>
+                    <span class="article-card__arrow">続きを読む →</span>
+                </a>
             </div>
             <div style="text-align:center; margin-top:24px;">
                 <a href="./articles/" style="display:inline-block; color:#153987; font-size:14px; font-weight:600; text-decoration:none; border:2px solid #153987; padding:10px 28px; border-radius:8px;">記事一覧をすべて見る →</a>

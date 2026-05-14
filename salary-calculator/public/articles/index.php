@@ -358,6 +358,14 @@ $canonical_url = "https://calc.pfp.tokyo/articles/";
       <span class="article-card__arrow">続きを読む →</span>
     </a>
 
+    <a href="./furusato-nozei.php" class="article-card">
+      <span class="article-card__label">税金・節税</span>
+      <p class="article-card__title">ふるさと納税とは？仕組み・控除上限額・手取りへの影響をわかりやすく解説【2026年版】</p>
+      <p class="article-card__desc">年収別の控除上限額シミュレーション・ワンストップ特例と確定申告の違い・住民税への影響を詳しく解説。</p>
+      <span class="article-card__meta">2026年5月掲載</span>
+      <span class="article-card__arrow">続きを読む →</span>
+    </a>
+
   </div>
 
   <!-- 広告 -->
