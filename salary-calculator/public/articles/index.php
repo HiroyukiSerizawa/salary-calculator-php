@@ -366,6 +366,30 @@ $canonical_url = "https://calc.pfp.tokyo/articles/";
       <span class="article-card__arrow">続きを読む →</span>
     </a>
 
+    <a href="./zangyo-dai.php" class="article-card">
+      <span class="article-card__label">給与・労働時間</span>
+      <p class="article-card__title">残業代（時間外手当）の計算方法とは？割増賃金率・計算式をわかりやすく解説【2026年版】</p>
+      <p class="article-card__desc">割増賃金率（25%/50%/35%）・時給の出し方・年収別シミュレーション表で残業代を自分で確認できます。</p>
+      <span class="article-card__meta">2026年5月掲載</span>
+      <span class="article-card__arrow">続きを読む →</span>
+    </a>
+
+    <a href="./yukyu-kyuka.php" class="article-card">
+      <span class="article-card__label">給与・休暇</span>
+      <p class="article-card__title">有給休暇とは？付与日数・取得義務・給与への影響をわかりやすく解説【2026年版】</p>
+      <p class="article-card__desc">勤続年数別の付与日数・パートの比例付与・年5日義務・取得時の給与計算方法まで詳しく解説。</p>
+      <span class="article-card__meta">2026年5月掲載</span>
+      <span class="article-card__arrow">続きを読む →</span>
+    </a>
+
+    <a href="./sanku-ikukyu.php" class="article-card">
+      <span class="article-card__label">給与・育児休業</span>
+      <p class="article-card__title">産休・育休中の給付金はいくら？出産手当金・育児休業給付金の計算方法【2026年版】</p>
+      <p class="article-card__desc">出産手当金（2/3）・育休給付金（67%→50%）・社会保険料免除・年収別シミュレーション表で徹底解説。</p>
+      <span class="article-card__meta">2026年5月掲載</span>
+      <span class="article-card__arrow">続きを読む →</span>
+    </a>
+
   </div>
 
   <!-- 広告 -->

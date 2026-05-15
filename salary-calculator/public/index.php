@@ -236,6 +236,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <p class="article-card__desc">年収別の控除上限額・ワンストップ特例vs確定申告・住民税への影響をわかりやすく解説。</p>
                     <span class="article-card__arrow">続きを読む →</span>
                 </a>
+                <a href="./articles/zangyo-dai.php" class="article-card">
+                    <span class="article-card__label">給与・労働時間</span>
+                    <p class="article-card__title">残業代（時間外手当）の計算方法とは？割増賃金率・計算式をわかりやすく解説</p>
+                    <p class="article-card__desc">割増賃金率・時給の計算・年収別シミュレーション表で残業代が正しいか自分で確認できます。</p>
+                    <span class="article-card__arrow">続きを読む →</span>
+                </a>
+                <a href="./articles/yukyu-kyuka.php" class="article-card">
+                    <span class="article-card__label">給与・休暇</span>
+                    <p class="article-card__title">有給休暇とは？付与日数・取得義務・給与への影響をわかりやすく解説【2026年版】</p>
+                    <p class="article-card__desc">勤続年数別付与日数・パートの比例付与・年5日義務・取得時の給与計算をわかりやすく解説。</p>
+                    <span class="article-card__arrow">続きを読む →</span>
+                </a>
+                <a href="./articles/sanku-ikukyu.php" class="article-card">
+                    <span class="article-card__label">給与・育児休業</span>
+                    <p class="article-card__title">産休・育休中の給付金はいくら？出産手当金・育児休業給付金の計算方法【2026年版】</p>
+                    <p class="article-card__desc">出産手当金・育休給付金の計算方法・社会保険料免除・年収別シミュレーション表つき。</p>
+                    <span class="article-card__arrow">続きを読む →</span>
+                </a>
             </div>
             <div style="text-align:center; margin-top:24px;">
                 <a href="./articles/" style="display:inline-block; color:#153987; font-size:14px; font-weight:600; text-decoration:none; border:2px solid #153987; padding:10px 28px; border-radius:8px;">記事一覧をすべて見る →</a>
