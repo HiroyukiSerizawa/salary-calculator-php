@@ -17,13 +17,14 @@ use App\Services\SalaryCalculator;
 use App\Services\ReverseCalculator;
 use App\Helpers\FormatHelper;
 
+// GETパラメーターによる初期値セット（記事ページからの遷移対応）
 $input = [
-    'target_net'           => '',
-    'transportation'       => '0',
-    'age'                  => '',
-    'dependents'           => '0',
-    'employment_insurance' => '1',
-    'resident_tax'         => '0',
+    'target_net'           => isset($_GET['target_net'])           ? trim((string)$_GET['target_net'])           : '',
+    'transportation'       => isset($_GET['transportation'])       ? trim((string)$_GET['transportation'])       : '0',
+    'age'                  => isset($_GET['age'])                  ? trim((string)$_GET['age'])                  : '',
+    'dependents'           => isset($_GET['dependents'])           ? trim((string)$_GET['dependents'])           : '0',
+    'employment_insurance' => isset($_GET['employment_insurance']) ? trim((string)$_GET['employment_insurance']) : '1',
+    'resident_tax'         => isset($_GET['resident_tax'])         ? trim((string)$_GET['resident_tax'])         : '0',
 ];
 
 $errors = [];
