@@ -15,8 +15,7 @@ use App\Services\IncomeTaxTableRepository;
 use App\Services\IncomeTaxCalculator;
 use App\Services\SalaryCalculator;
 use App\Services\ReverseCalculator;
-
-function yen(int $n): string { return '¥' . number_format($n); }
+use App\Helpers\FormatHelper;
 
 $input = [
     'target_net'           => '',
@@ -99,59 +98,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       border: 1px solid #c2d0f5;
       margin-bottom: 8px;
     }
-    .result-highlight {
-      background: linear-gradient(135deg, #153987 0%, #2563eb 100%);
-      color: #fff;
-      border-radius: 14px;
-      padding: 28px 24px;
-      margin-bottom: 24px;
-      text-align: center;
-    }
-    .result-highlight__label {
-      font-size: 13px;
-      opacity: 0.85;
-      margin-bottom: 6px;
-    }
-    .result-highlight__value {
-      font-size: 2.4rem;
-      font-weight: 800;
-      letter-spacing: -0.5px;
-    }
-    .result-highlight__sub {
-      font-size: 12px;
-      opacity: 0.75;
-      margin-top: 6px;
-    }
-    .result-confirm-btn {
-      display: block;
-      width: 100%;
-      background: #fff;
-      color: #153987;
-      border: 2px solid #fff;
-      border-radius: 10px;
-      padding: 14px;
-      font-size: 15px;
-      font-weight: 700;
-      cursor: pointer;
-      text-align: center;
-      text-decoration: none;
-      margin-top: 20px;
-      transition: background 0.15s, color 0.15s;
-    }
-    .result-confirm-btn:hover {
-      background: #e8eeff;
-      color: #153987;
-    }
-    .assumption-note {
-      background: #fffbeb;
-      border: 1px solid #fcd34d;
-      border-radius: 10px;
-      padding: 14px 16px;
-      font-size: 13px;
-      color: #78350f;
-      margin-bottom: 20px;
-    }
-    .assumption-note strong { color: #92400e; }
     .nav-tabs {
       display: flex;
       gap: 8px;
@@ -325,83 +271,65 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       </section>
 
       <section class="card card--result">
+        <div class="section-head">
+          <h2 class="section-title">結果</h2>
+          <p class="section-text">東京・協会けんぽ前提の概算結果です。</p>
+        </div>
+
         <?php if ($reverseResult !== null): ?>
           <?php $r = $reverseResult['result']; ?>
 
-          <div class="result-highlight">
-            <p class="result-highlight__label">必要な基本給の目安</p>
-            <p class="result-highlight__value"><?= yen($reverseResult['suggested_salary']) ?></p>
-            <p class="result-highlight__sub">
-              この基本給での試算手取り：<?= yen($r['net_salary']) ?>
-              （目標との差：<?= yen($r['net_salary'] - $reverseResult['target_net']) ?>）
-            </p>
+          <div class="result-hero">
+            <p class="result-hero__label">必要な基本給の目安</p>
+            <p class="result-hero__value"><?= FormatHelper::yen($reverseResult['suggested_salary']) ?></p>
+            <p class="result-hero__sub">試算手取り <?= FormatHelper::yen($r['net_salary']) ?>（目標との差 +<?= number_format($r['net_salary'] - $reverseResult['target_net']) ?>円）</p>
           </div>
 
-          <div class="assumption-note">
-            <strong>⚠ 計算前提（仮置き）</strong><br>
-            交通費 <?= yen($r['transportation']) ?> / 住民税 <?= yen($r['resident_tax']) ?> で試算しています。
-            実際の交通費・住民税が異なる場合は結果も変わります。
+          <div class="result-list">
+            <div class="result-row">
+              <span>健康保険料</span>
+              <strong><?= FormatHelper::yen($r['health_insurance']) ?></strong>
+            </div>
+            <div class="result-row">
+              <span>介護保険料</span>
+              <strong><?= FormatHelper::yen($r['care_insurance']) ?></strong>
+            </div>
+            <div class="result-row">
+              <span>子ども・子育て支援金</span>
+              <strong><?= FormatHelper::yen($r['child_support']) ?></strong>
+            </div>
+            <div class="result-row">
+              <span>厚生年金保険料</span>
+              <strong><?= FormatHelper::yen($r['pension']) ?></strong>
+            </div>
+            <div class="result-row">
+              <span>雇用保険料</span>
+              <strong><?= FormatHelper::yen($r['employment_insurance']) ?></strong>
+            </div>
+            <div class="result-row">
+              <span>所得税</span>
+              <strong><?= FormatHelper::yen($r['income_tax']) ?></strong>
+            </div>
+            <div class="result-row">
+              <span>住民税（仮置き）</span>
+              <strong><?= FormatHelper::yen($r['resident_tax']) ?></strong>
+            </div>
+            <div class="result-row result-row--total">
+              <span>控除合計</span>
+              <strong><?= FormatHelper::yen($r['total_deductions']) ?></strong>
+            </div>
           </div>
 
-          <table class="result-table">
-            <thead>
-              <tr><th>項目</th><th>金額</th></tr>
-            </thead>
-            <tbody>
-              <tr class="result-row--base">
-                <td>基本給</td>
-                <td><?= yen($reverseResult['suggested_salary']) ?></td>
-              </tr>
-              <tr>
-                <td>交通費</td>
-                <td><?= yen($r['transportation']) ?></td>
-              </tr>
-              <tr class="result-row--gross">
-                <td><strong>総支給額</strong></td>
-                <td><strong><?= yen($r['gross_salary']) ?></strong></td>
-              </tr>
-              <tr class="result-row--deduction">
-                <td>健康保険料</td>
-                <td>−<?= yen($r['health_insurance']) ?></td>
-              </tr>
-              <?php if ($r['care_insurance'] > 0): ?>
-              <tr class="result-row--deduction">
-                <td>介護保険料</td>
-                <td>−<?= yen($r['care_insurance']) ?></td>
-              </tr>
-              <?php endif; ?>
-              <tr class="result-row--deduction">
-                <td>子ども・子育て支援金</td>
-                <td>−<?= yen($r['child_support']) ?></td>
-              </tr>
-              <tr class="result-row--deduction">
-                <td>厚生年金保険料</td>
-                <td>−<?= yen($r['pension']) ?></td>
-              </tr>
-              <?php if ($r['employment_insurance'] > 0): ?>
-              <tr class="result-row--deduction">
-                <td>雇用保険料</td>
-                <td>−<?= yen($r['employment_insurance']) ?></td>
-              </tr>
-              <?php endif; ?>
-              <tr class="result-row--deduction">
-                <td>所得税</td>
-                <td>−<?= yen($r['income_tax']) ?></td>
-              </tr>
-              <tr class="result-row--deduction">
-                <td>住民税（仮置き）</td>
-                <td>−<?= yen($r['resident_tax']) ?></td>
-              </tr>
-              <tr class="result-row--total-deduction">
-                <td>控除合計</td>
-                <td>−<?= yen($r['total_deductions']) ?></td>
-              </tr>
-              <tr class="result-row--net">
-                <td><strong>試算手取り</strong></td>
-                <td><strong><?= yen($r['net_salary']) ?></strong></td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="note-box">
+            <p><strong>基本給:</strong> <?= FormatHelper::yen($reverseResult['suggested_salary']) ?></p>
+            <p><strong>交通費（仮置き）:</strong> <?= FormatHelper::yen($r['transportation']) ?></p>
+            <p><strong>総支給額:</strong> <?= FormatHelper::yen($r['gross_salary']) ?></p>
+            <p><strong>標準報酬月額:</strong> <?= FormatHelper::yen($r['standard_monthly_remuneration']) ?></p>
+            <hr>
+            <p>・住民税・交通費は入力値を仮置きしています。実際の値が異なると結果も変わります。</p>
+            <p>・基本給は1,000円単位に切り上げた目安値です。</p>
+            <p>・東京・協会けんぽ・令和8年度料率前提の概算です。</p>
+          </div>
 
           <?php
           $confirmUrl = './index.php?' . http_build_query([
@@ -413,13 +341,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'resident_tax'         => $input['resident_tax'],
           ]);
           ?>
-          <a href="<?= htmlspecialchars($confirmUrl) ?>" class="result-confirm-btn" style="background:#153987; color:#fff; display:block; text-align:center; padding:14px; border-radius:10px; font-weight:700; text-decoration:none; margin-top:20px;">
+          <a href="<?= htmlspecialchars($confirmUrl) ?>" style="display:block; background:#153987; color:#fff; text-align:center; padding:14px; border-radius:10px; font-size:15px; font-weight:700; text-decoration:none; margin-top:20px;">
             この基本給で手取り計算を確認する →
           </a>
 
         <?php else: ?>
-          <div class="result-placeholder">
-            <p class="result-placeholder__text">希望手取り額と年齢を入力して「逆算する」を押してください</p>
+          <div class="empty-state">
+            <p class="empty-state__title">まだ計算されていません</p>
+            <p class="empty-state__text">希望手取り額と年齢を入力して「逆算する」を押してください。</p>
           </div>
         <?php endif; ?>
       </section>
