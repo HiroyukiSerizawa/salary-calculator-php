@@ -15,13 +15,14 @@ use App\Services\IncomeTaxTableRepository;
 use App\Services\IncomeTaxCalculator;
 use App\Services\SalaryCalculator;
 
+// GETパラメーターによる初期値セット（逆算ページからの遷移対応）
 $input = [
-    'salary' => '',
-    'transportation' => '0',
-    'age' => '',
-    'dependents' => '0',
-    'employment_insurance' => '1',
-    'resident_tax' => '0',
+    'salary'               => isset($_GET['salary'])               ? trim((string)$_GET['salary'])               : '',
+    'transportation'       => isset($_GET['transportation'])       ? trim((string)$_GET['transportation'])       : '0',
+    'age'                  => isset($_GET['age'])                  ? trim((string)$_GET['age'])                  : '',
+    'dependents'           => isset($_GET['dependents'])           ? trim((string)$_GET['dependents'])           : '0',
+    'employment_insurance' => isset($_GET['employment_insurance']) ? trim((string)$_GET['employment_insurance']) : '1',
+    'resident_tax'         => isset($_GET['resident_tax'])         ? trim((string)$_GET['resident_tax'])         : '0',
 ];
 
 $errors = [];
@@ -79,6 +80,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+      .nav-tabs { display:flex; gap:8px; margin-bottom:24px; }
+      .nav-tab { flex:1; text-align:center; padding:10px 8px; border-radius:10px; font-size:14px; font-weight:600; text-decoration:none; border:2px solid #e2e8f0; color:#64748b; background:#f8fafc; transition:all 0.15s; }
+      .nav-tab--active { background:#153987; color:#fff; border-color:#153987; }
+      .nav-tab:hover:not(.nav-tab--active) { border-color:#153987; color:#153987; }
+    </style>
 </head>
 <body>
     <header class="site-header">
@@ -103,6 +110,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <main class="layout">
             <section class="card">
+                <div class="nav-tabs">
+                  <a href="./index.php" class="nav-tab nav-tab--active">通常計算（手取りを求める）</a>
+                  <a href="./reverse.php" class="nav-tab">逆算（基本給を求める）</a>
+                </div>
                 <?php require __DIR__ . '/../app/Views/form.php'; ?>
             </section>
 
