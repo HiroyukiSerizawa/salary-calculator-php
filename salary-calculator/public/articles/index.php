@@ -274,6 +274,36 @@ $canonical_url = "https://calc.pfp.tokyo/articles/";
     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
   </div>
 
+  <span class="category-label">給与明細・実例シミュレーション</span>
+
+  <div class="articles-grid">
+
+    <a href="./teguchi-20man.php" class="article-card">
+      <span class="article-card__label">給与明細・実例</span>
+      <p class="article-card__title">手取り20万円の給与明細を公開｜初任給・新卒の天引き額はいくら？【2026年版】</p>
+      <p class="article-card__desc">月収25万円・25歳のモデルケースで給与明細の内訳を実例公開。新卒1年目の住民税ゼロの仕組みも解説。</p>
+      <span class="article-card__meta">2026年5月掲載</span>
+      <span class="article-card__arrow">続きを読む →</span>
+    </a>
+
+    <a href="./teguchi-30man.php" class="article-card">
+      <span class="article-card__label">給与明細・実例</span>
+      <p class="article-card__title">手取り30万円にするには月収いくら必要？給与明細の内訳を公開【2026年版】</p>
+      <p class="article-card__desc">月収38万円・30歳の転職ケースで実例公開。転職交渉・求人票の月収を手取りに換算して確認できます。</p>
+      <span class="article-card__meta">2026年5月掲載</span>
+      <span class="article-card__arrow">続きを読む →</span>
+    </a>
+
+    <a href="./nenshu-1000man.php" class="article-card">
+      <span class="article-card__label">給与明細・実例</span>
+      <p class="article-card__title">年収1000万円の手取りはいくら？給与明細の内訳と税負担を公開【2026年版】</p>
+      <p class="article-card__desc">月収83万円・40歳のモデルケースで実例公開。高収入ほど重くなる税・社会保険料の実態を解説。</p>
+      <span class="article-card__meta">2026年5月掲載</span>
+      <span class="article-card__arrow">続きを読む →</span>
+    </a>
+
+  </div>
+
   <span class="category-label">社会保険・給与解説</span>
 
   <div class="articles-grid">
@@ -386,6 +416,14 @@ $canonical_url = "https://calc.pfp.tokyo/articles/";
       <span class="article-card__label">給与・育児休業</span>
       <p class="article-card__title">産休・育休中の給付金はいくら？出産手当金・育児休業給付金の計算方法【2026年版】</p>
       <p class="article-card__desc">出産手当金（2/3）・育休給付金（67%→50%）・社会保険料免除・年収別シミュレーション表で徹底解説。</p>
+      <span class="article-card__meta">2026年5月掲載</span>
+      <span class="article-card__arrow">続きを読む →</span>
+    </a>
+
+    <a href="./minashi-zangyo.php" class="article-card">
+      <span class="article-card__label">給与・みなし残業</span>
+      <p class="article-card__title">みなし残業代（固定残業代）とは？違法なケース・超過分の請求方法【2026年版】</p>
+      <p class="article-card__desc">有効な固定残業代の条件・違法になるケース・超過分の計算と請求手順をわかりやすく解説。</p>
       <span class="article-card__meta">2026年5月掲載</span>
       <span class="article-card__arrow">続きを読む →</span>
     </a>
