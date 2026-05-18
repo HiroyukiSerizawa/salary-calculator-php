@@ -164,6 +164,20 @@ $calc_url = "https://calc.pfp.tokyo/";
 
     p { margin-bottom: 16px; }
 
+    .related-link-box {
+      background: #f0f4ff;
+      border: 1px solid #c2d0f5;
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin: 12px 0 20px;
+    }
+    .related-link-box a {
+      color: #153987;
+      font-weight: 600;
+      font-size: 14px;
+      text-decoration: none;
+    }
+    .related-link-box a:hover { text-decoration: underline; }
     .highlight-box {
       background: #fff8e1;
       border: 1px solid #ffc107;
@@ -561,6 +575,9 @@ $calc_url = "https://calc.pfp.tokyo/";
 
     <h3>みなし残業（固定残業代）</h3>
     <p>あらかじめ一定時間分の残業代を月給に含める制度です。固定残業代が設定されている場合でも、<strong>超過した残業時間分は別途支払い義務があります</strong>。また、固定残業代として支払われる時間数・金額が明示されていない場合は無効と判断されることがあります。</p>
+    <div class="related-link-box">
+      <a href="./minashi-zangyo.php">📖 みなし残業代の仕組み・違法なケース・超過分の請求方法を詳しく解説 →</a>
+    </div>
 
     <h3>裁量労働制</h3>
     <p>専門業務型・企画業務型など、対象業種・要件が法律で限定されています。裁量労働制の場合も<strong>深夜・休日労働の割増賃金は発生</strong>します。</p>
