@@ -1,6 +1,6 @@
 <?php
-$page_title = "社会保険料（健康保険・厚生年金）の計算方法【2026年最新】";
-$page_description = "会社員の健康保険料・厚生年金・介護保険料・子ども支援金の計算方法を解説。標準報酬月額の仕組みや年収別シミュレーション表つきでわかりやすく紹介します。";
+$page_title = "厚生年金18.3%・健康保険料【2026年】月収別の天引き額を今すぐ確認";
+$page_description = "2026年の厚生年金保険料率は18.3%（本人負担9.15%）。あなたの月収から実際にいくら天引きされる？月収20〜60万円の社会保険料シミュレーション表で今すぐ確認。無料の手取り計算ツール付き。";
 $canonical_url = "https://calc.pfp.tokyo/articles/shakai-hoken-keisan.php";
 $calc_url = "https://calc.pfp.tokyo/index.php";
 ?>
