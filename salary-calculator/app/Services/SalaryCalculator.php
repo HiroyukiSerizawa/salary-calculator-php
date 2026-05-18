@@ -49,8 +49,10 @@ final class SalaryCalculator
         // 2026年4月分からの子ども・子育て支援金（本人負担分）
         $childSupport = (int) floor((float)$tableRow['child_support_half']);
 
+        // 厚生年金の最低等級は88,000円。健保grade1〜3（58,000〜78,000円）は
+        // JSONで最低等級値(8,052円)を設定済みだが、万一nullの場合は最低額で保護する
         $pensionHalf = $tableRow['pension_half'] ?? null;
-        $pension = $pensionHalf === null ? 0 : (int) floor((float)$pensionHalf);
+        $pension = $pensionHalf === null ? 8052 : (int) floor((float)$pensionHalf);
 
         // 雇用保険も交通費込み賃金で計算
         $employmentInsurance = $employmentInsuranceEnabled

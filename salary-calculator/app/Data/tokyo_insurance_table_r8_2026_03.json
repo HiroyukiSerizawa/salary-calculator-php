@@ -10,7 +10,8 @@
       "health_insurance_half": 2856.5,
       "care_insurance_half": 469.8,
       "child_support_half": 66.7,
-      "pension_half": null
+      "pension_half": 8052.0,
+      "pension_note": "厚生年金最低等級(88000円)を適用"
     },
     {
       "grade": 2,
@@ -20,7 +21,8 @@
       "health_insurance_half": 3349.0,
       "care_insurance_half": 550.8,
       "child_support_half": 78.2,
-      "pension_half": null
+      "pension_half": 8052.0,
+      "pension_note": "厚生年金最低等級(88000円)を適用"
     },
     {
       "grade": 3,
@@ -30,7 +32,8 @@
       "health_insurance_half": 3841.5,
       "care_insurance_half": 631.8,
       "child_support_half": 89.7,
-      "pension_half": null
+      "pension_half": 8052.0,
+      "pension_note": "厚生年金最低等級(88000円)を適用"
     },
     {
       "grade": 4,
