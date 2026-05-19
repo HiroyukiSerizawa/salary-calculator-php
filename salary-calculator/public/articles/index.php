@@ -286,10 +286,26 @@ $canonical_url = "https://calc.pfp.tokyo/articles/";
       <span class="article-card__arrow">続きを読む →</span>
     </a>
 
+    <a href="./teguchi-25man.php" class="article-card">
+      <span class="article-card__label">給与明細・実例</span>
+      <p class="article-card__title">手取り25万円の給与明細を公開｜社会人2〜3年目の天引き額はいくら？【2026年版】</p>
+      <p class="article-card__desc">月収31万円・28歳のモデルケースで実例公開。住民税が始まる2年目以降の手取りの変化も解説。</p>
+      <span class="article-card__meta">2026年5月掲載</span>
+      <span class="article-card__arrow">続きを読む →</span>
+    </a>
+
     <a href="./teguchi-30man.php" class="article-card">
       <span class="article-card__label">給与明細・実例</span>
       <p class="article-card__title">手取り30万円にするには月収いくら必要？給与明細の内訳を公開【2026年版】</p>
       <p class="article-card__desc">月収38万円・30歳の転職ケースで実例公開。転職交渉・求人票の月収を手取りに換算して確認できます。</p>
+      <span class="article-card__meta">2026年5月掲載</span>
+      <span class="article-card__arrow">続きを読む →</span>
+    </a>
+
+    <a href="./teguchi-35man.php" class="article-card">
+      <span class="article-card__label">給与明細・実例</span>
+      <p class="article-card__title">手取り35万円の給与明細を公開｜月収いくら必要？30代の天引き額を解説【2026年版】</p>
+      <p class="article-card__desc">月収44万円・35歳のモデルケースで実例公開。30代の所得税・住民税の増加と転職交渉への活用法を解説。</p>
       <span class="article-card__meta">2026年5月掲載</span>
       <span class="article-card__arrow">続きを読む →</span>
     </a>
