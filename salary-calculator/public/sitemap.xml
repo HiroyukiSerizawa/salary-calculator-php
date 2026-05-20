@@ -17,6 +17,14 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- 手取り逆算シミュレーター -->
+  <url>
+    <loc>https://calc.pfp.tokyo/reverse.php</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- 解説記事 -->
   <url>
     <loc>https://calc.pfp.tokyo/articles/kyuyo-meisai-mikata.php</loc>
@@ -114,6 +122,49 @@
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://calc.pfp.tokyo/articles/minashi-zangyo.php</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 給与明細・実例シミュレーション -->
+  <url>
+    <loc>https://calc.pfp.tokyo/articles/teguchi-20man.php</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://calc.pfp.tokyo/articles/teguchi-25man.php</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://calc.pfp.tokyo/articles/teguchi-30man.php</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://calc.pfp.tokyo/articles/teguchi-35man.php</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://calc.pfp.tokyo/articles/nenshu-1000man.php</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
 </urlset>
